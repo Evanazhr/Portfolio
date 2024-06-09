@@ -29,23 +29,39 @@ export default function Footer() {
                     <h2 className="mb-2 text-lg font-bold">Find me on</h2>
                     <ul className="flex flex-col gap-2">
                         <li>
-                            <a className="hover:text-orange-color" href="/">
+                            <a
+                                target="_blank"
+                                href="https://github.com/Evanazhr/"
+                                className="hover:text-orange-color"
+                            >
                                 Github
                             </a>
                         </li>
                         <li>
-                            <a className="hover:text-orange-color" href="/">
+                            <a
+                                className="hover:text-orange-color"
+                                target="_blank"
+                                href="https://www.instagram.com/evanazh?igsh=OWMzcG1wOXBlcThv"
+                            >
                                 Instagram
                             </a>
                         </li>
 
                         <li>
-                            <a className="hover:text-orange-color" href="/">
+                            <a
+                                className="hover:text-orange-color"
+                                href="mailto:evanazhr@gmail.com"
+                                target="_blank"
+                            >
                                 Email
                             </a>
                         </li>
                         <li>
-                            <a className="hover:text-orange-color" href="/">
+                            <a
+                                className="hover:text-orange-color"
+                                href="https://discord.com/users/Evan Azhar Hartana#0738"
+                                target="_blank"
+                            >
                                 Discord
                             </a>
                         </li>
@@ -62,7 +78,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="py-6 pb-32 md:pb-6">
-                <h2 className="text-sm">vnzh@2024</h2>
+                <h2 className="text-sm">evanzh@2024</h2>
             </div>
         </footer>
     )

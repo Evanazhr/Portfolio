@@ -39,9 +39,7 @@ export default function Experience() {
                     Resume
                 </a>
             </div>
-            <div className="my-6">
-                <p className="line-through">Experience</p>
-            </div>
+            <div className="my-6"></div>
         </div>
     )
 }
