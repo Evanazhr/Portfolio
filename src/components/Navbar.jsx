@@ -14,7 +14,7 @@ export default function Navbar() {
                 <div className="h-12 w-12 overflow-hidden rounded-full shadow-xl md:block">
                     <img
                         src={HeroPhoto}
-                        alt="photo"
+                        alt="evanazh"
                         className="bg-cover bg-center"
                     />
                 </div>
@@ -148,7 +148,7 @@ export default function Navbar() {
                         <NavLink
                             to="/soon"
                             className={({ isActive }) =>
-                                isActive ? NavLinkPathStyle : pathStyle
+                                isActive ? pathStyle : pathStyle
                             }
                         >
                             <span className="flex flex-row items-center justify-start gap-2">
@@ -176,7 +176,7 @@ export default function Navbar() {
                         <NavLink
                             to="/soon"
                             className={({ isActive }) =>
-                                isActive ? NavLinkPathStyle : pathStyle
+                                isActive ? pathStyle : pathStyle
                             }
                         >
                             <span className="flex flex-row items-center justify-start gap-2">
