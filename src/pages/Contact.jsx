@@ -8,7 +8,8 @@ export default function Contact() {
                     <ul className="mt-3 flex flex-col flex-wrap gap-6 py-6 md:flex-row">
                         <li>
                             <a
-                                href="/"
+                                target="_blank"
+                                href="https://github.com/Evanazhr/"
                                 className="flex animate-pulse-1 flex-row items-center justify-center gap-2 rounded-md px-3 py-2 font-bold shadow-md shadow-light-color hover:shadow-sm hover:shadow-light-color"
                             >
                                 <svg
@@ -29,7 +30,8 @@ export default function Contact() {
                         </li>
                         <li>
                             <a
-                                href="/"
+                                target="_blank"
+                                href="https://www.instagram.com/evanazh?igsh=OWMzcG1wOXBlcThv"
                                 className="flex animate-pulse-2 flex-row items-center justify-center gap-2 rounded-md px-3 py-2 font-bold shadow-md shadow-light-color hover:shadow-sm hover:shadow-light-color"
                             >
                                 <svg
@@ -114,7 +116,8 @@ export default function Contact() {
 
                         <li>
                             <a
-                                href="/"
+                                href="mailto:evanazhr@gmail.com"
+                                target="_blank"
                                 className="flex animate-pulse-3 flex-row items-center justify-center gap-2 rounded-md px-3 py-2 font-bold shadow-md shadow-light-color hover:shadow-sm hover:shadow-light-color"
                             >
                                 <svg
@@ -219,7 +222,8 @@ export default function Contact() {
                         </li>
                         <li>
                             <a
-                                href="/"
+                                href="https://discord.com/users/Evan Azhar Hartana#0738"
+                                target="_blank"
                                 className="flex animate-pulse-4 flex-row items-center justify-center gap-2 rounded-md px-3 py-2 font-bold shadow-md shadow-light-color hover:shadow-sm hover:shadow-light-color"
                             >
                                 <svg
