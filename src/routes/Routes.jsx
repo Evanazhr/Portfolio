@@ -1,14 +1,18 @@
 //import react router dom
 import { Routes, Route } from "react-router-dom"
 
-//import homepage
+//import pages
 import Home from "../pages/Home.jsx"
 import About from "../pages/About.jsx"
 import Project from "../pages/Project.jsx"
 import Contact from "../pages/Contact.jsx"
 import Soon from "../pages/Soon.jsx"
 
+// no pages
 import NoPage from "../pages/NoPage.jsx"
+
+// import projects
+import QuotesGenerator from "../pages/projects/QuotesGenerator.jsx"
 
 function RoutesIndex() {
     return (
@@ -30,6 +34,12 @@ function RoutesIndex() {
 
             {/* route "/NoPage" */}
             <Route path="/*" element={<NoPage />} />
+
+            {/* route projects  */}
+            <Route
+                path="/projects/quotes-generator"
+                element={<QuotesGenerator />}
+            />
         </Routes>
     )
 }

@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
-import RoutesIndex from "./routes"
+import RoutesIndex from "./routes/Routes.jsx"
 import "./App.css"
 
 function App() {
