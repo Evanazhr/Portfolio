@@ -5,7 +5,7 @@ export default function Contact() {
                 <div className="border-b border-secondary-dark pb-6">
                     <h1 className="text-3xl">Contact</h1>
                     <p className="bg-main-color mt-1">Get in touch</p>
-                    <ul className="mt-3 flex flex-col flex-wrap gap-6 py-6 md:flex-row">
+                    <ul className="mt-3 flex flex-col flex-wrap gap-6 py-6 sm:flex-row">
                         <li>
                             <a
                                 target="_blank"

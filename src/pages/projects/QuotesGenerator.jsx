@@ -26,9 +26,9 @@ export default function QuotesGenerator() {
     }
 
     return (
-        <div className="flex h-screen w-full flex-col items-center justify-center p-6 text-light-color">
-            <div className="justify-items-start justify-self-start">
-                <h1 className="text-3xl">Simple quotes generator</h1>
+        <div className="flex h-screen w-full flex-col relative items-center justify-center p-6 text-light-color">
+            <div className="absolute top-32 left-1/2 block -translate-x-1/2">
+                <h1 className="text-3xl text-nowrap">Simple quotes generator</h1>
             </div>
             <div className="mt-6 flex h-fit flex-col items-center justify-center rounded-lg p-8 shadow-md shadow-light-color">
                 <div className="flex flex-col text-center">

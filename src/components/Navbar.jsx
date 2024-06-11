@@ -4,9 +4,9 @@ import HeroPhoto from "../assets/hero-photo.jpg"
 export default function Navbar() {
     const namePath = document.location.pathname
     const NavLinkPathStyle =
-        "bg-secondary-dark rounded-full md:rounded-lg w-full font-bold flex flex row justify-start p-3"
+        "bg-gradient-to-r from-gradient-1 to-gradient-2  rounded-full md:rounded-lg w-full font-bold flex flex row justify-start p-3"
     const pathStyle =
-        "p-3 w-full flex flex row hover:bg-secondary-dark rounded-full md:rounded-lg transition-all ease-in-out duration-150 justify-center lg:justify-start"
+        "p-3 w-full flex flex row bg-gradient-to-r hover:from-gradient-1 hover:to-gradient-2  rounded-full md:rounded-lg transition-all ease-in-out duration-150 justify-center lg:justify-start"
 
     return (
         <header className="flex flex-row md:sticky md:top-0 md:flex-col md:items-center md:justify-start md:self-start md:px-5 md:py-5 lg:w-52 lg:items-start">
@@ -84,7 +84,7 @@ export default function Navbar() {
                     </li>
                     <li className="w-full">
                         <NavLink
-                            to="/project"
+                            to="/projects"
                             className={({ isActive }) =>
                                 isActive ? NavLinkPathStyle : pathStyle
                             }
@@ -112,7 +112,7 @@ export default function Navbar() {
                     </li>
                     <li className="w-full">
                         <NavLink
-                            to="/contact"
+                            to="/contacts"
                             className={({ isActive }) =>
                                 isActive ? NavLinkPathStyle : pathStyle
                             }
@@ -133,7 +133,7 @@ export default function Navbar() {
                                     ></path>
                                 </svg>
                                 <span className="hidden lg:inline-block">
-                                    Contact
+                                    Contacts
                                 </span>
                             </span>
                         </NavLink>

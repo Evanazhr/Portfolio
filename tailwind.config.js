@@ -8,6 +8,8 @@ export default {
                 "secondary-dark": "#374151",
                 "light-color": "#D4D4D8",
                 "orange-color": "#F97316",
+                "gradient-1" : "#f3904f                ",
+                "gradient-2" : "#3b4371",
             },
             animation: {
                 "pulse-1": "pulse 2s cubic-bezier(0.4, 0, 0.6 , 1) infinite",

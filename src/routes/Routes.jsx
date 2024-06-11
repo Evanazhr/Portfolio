@@ -23,11 +23,11 @@ function RoutesIndex() {
             {/* route "/about" */}
             <Route path="/about" element={<About />} />
 
-            {/* route "/project" */}
-            <Route path="/project" element={<Project />} />
+            {/* route "/projects" */}
+            <Route path="/projects" element={<Project />} />
 
-            {/* route "/contact" */}
-            <Route path="/contact" element={<Contact />} />
+            {/* route "/contacts" */}
+            <Route path="/contacts" element={<Contact />} />
 
             {/* route "/Soon" */}
             <Route path="/soon" element={<Soon />} />
