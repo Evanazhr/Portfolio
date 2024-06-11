@@ -78,7 +78,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="py-6 pb-32 md:pb-6">
-                <h2 className="text-sm">evanzh@2024</h2>
+                <h2 className="text-sm">evanazh@2024</h2>
             </div>
         </footer>
     )
