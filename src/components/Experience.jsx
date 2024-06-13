@@ -19,10 +19,11 @@ export default function Experience() {
                 <h1 className="text-lg font-bold">Career</h1>
             </div>
             <div className="my-6">
+                <p className="my-3">Not available</p>
                 <a
                     href="/"
-                    className="flex w-fit flex-row items-center justify-center gap-2 rounded-lg bg-green-500 px-2 py-1 font-bold text-dark-background shadow-md shadow-light-color hover:bg-green-600 hover:shadow-sm hover:shadow-light-color"
-                >
+                    className="flex w-fit cursor-not-allowed flex-row items-center justify-center gap-2 rounded-lg bg-green-500 px-2 py-1 font-bold text-dark-background shadow-md shadow-light-color hover:bg-green-600 hover:shadow-sm hover:shadow-light-color"
+                aria-disabled>
                     <svg
                         className="h-5 w-5 animate-bounce"
                         viewBox="0 0 15 15"
