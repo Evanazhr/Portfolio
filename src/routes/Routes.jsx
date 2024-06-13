@@ -11,9 +11,6 @@ import Soon from "../pages/Soon.jsx"
 // no pages
 import NoPage from "../pages/NoPage.jsx"
 
-// import projects
-import QuotesGenerator from "../pages/projects/QuotesGenerator.jsx"
-
 function RoutesIndex() {
     return (
         <Routes>
@@ -35,11 +32,7 @@ function RoutesIndex() {
             {/* route "/NoPage" */}
             <Route path="/*" element={<NoPage />} />
 
-            {/* route projects  */}
-            <Route
-                path="/projects/quotes-generator"
-                element={<QuotesGenerator />}
-            />
+          
         </Routes>
     )
 }

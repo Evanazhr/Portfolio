@@ -1,6 +1,5 @@
 import empty from "../assets/empty.jpg"
 import quotesImage from "../assets/project-image/quotes.webp"
-import { Link } from "react-router-dom"
 import Footer from "../components/Footer"
 
 export default function Project() {
@@ -17,7 +16,7 @@ export default function Project() {
                     {/* <h2 className="font-bold text-xl">Simple Projects</h2> */}
                     <ul className="mt-3 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
                         <li className="group h-auto w-auto rounded-lg bg-dark-background shadow-md shadow-light-color hover:shadow-sm hover:shadow-light-color">
-                            <Link to="/projects/quotes-generator">
+                            <a href="#">
                                 <div>
                                     <div className="relative">
                                         <p className="absolute bottom-1 left-0 rounded-sm bg-secondary-dark bg-opacity-80 px-2 text-sm text-light-color">
@@ -40,7 +39,7 @@ export default function Project() {
                                         </p>
                                     </div>
                                 </div>
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </div>
