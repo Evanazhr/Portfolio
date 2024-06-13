@@ -1,12 +1,15 @@
+import Footer from "../components/Footer"
+
 export default function Contact() {
+    document.title = "Contacts | Evan Azhar Hartana"
     return (
         <>
-            <div className="w-full px-5 py-5 text-light-color md:py-5">
+            <div className="w-full animate-fadeUp px-5 py-5 text-light-color md:py-5">
                 <div className="border-b border-secondary-dark pb-6">
                     <h1 className="text-3xl">Contact</h1>
                     <p className="bg-main-color mt-1">Get in touch</p>
                     <ul className="mt-3 flex flex-col flex-wrap gap-6 py-6 sm:flex-row">
-                        <li>
+                        <li className="animate-scaleUp">
                             <a
                                 target="_blank"
                                 href="https://github.com/Evanazhr/"
@@ -28,7 +31,7 @@ export default function Contact() {
                                 Github
                             </a>
                         </li>
-                        <li>
+                        <li className="animate-scaleUp">
                             <a
                                 target="_blank"
                                 href="https://www.instagram.com/evanazh?igsh=OWMzcG1wOXBlcThv"
@@ -114,7 +117,7 @@ export default function Contact() {
                             </a>
                         </li>
 
-                        <li>
+                        <li className="animate-scaleUp">
                             <a
                                 href="mailto:evanazhr@gmail.com"
                                 target="_blank"
@@ -220,7 +223,7 @@ export default function Contact() {
                                 Email
                             </a>
                         </li>
-                        <li>
+                        <li className="animate-scaleUp">
                             <a
                                 href="https://discord.com/users/Evan Azhar Hartana#0738"
                                 target="_blank"
@@ -246,6 +249,7 @@ export default function Contact() {
                     </ul>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

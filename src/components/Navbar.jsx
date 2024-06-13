@@ -11,7 +11,7 @@ export default function Navbar() {
     return (
         <header className="flex flex-row md:sticky md:top-0 md:flex-col md:items-center md:justify-start md:self-start md:px-5 md:py-5 lg:w-52 lg:items-start">
             <div className="hidden h-fit w-full border-b border-secondary-dark md:flex md:flex-row md:items-center md:justify-start md:gap-2 md:pb-6">
-                <div className="h-12 w-12 overflow-hidden rounded-full shadow-xl md:block">
+                <div className="h-12 w-12 animate-scaleUp overflow-hidden rounded-full shadow-xl md:block">
                     <img
                         src={HeroPhoto}
                         alt="evanazh"

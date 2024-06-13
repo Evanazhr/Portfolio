@@ -1,6 +1,6 @@
 export default function Experience() {
     return (
-        <div className="mb-6 border-b border-secondary-dark">
+        <div className="mb-6 animate-fadeUp border-b border-secondary-dark">
             <div className="flex flex-row items-center justify-start gap-2">
                 <svg
                     width="22"

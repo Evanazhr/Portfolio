@@ -1,13 +1,18 @@
 import empty from "../assets/empty.jpg"
 import quotesImage from "../assets/project-image/quotes.webp"
 import { Link } from "react-router-dom"
+import Footer from "../components/Footer"
 
 export default function Project() {
+    document.title = "Projects | Evan Azhar Hartana"
+
     return (
         <>
-            <div className="w-full px-5 py-5 text-light-color md:py-5">
+            <div className="w-full animate-fadeUp px-5 py-5 text-light-color md:py-5">
                 <h1 className="text-3xl font-bold">Projects</h1>
-                <p className="my-1">My Projects</p>
+                <p className="my-1">
+                    These project are simple but have improved my skills
+                </p>
                 <div className="py-6">
                     {/* <h2 className="font-bold text-xl">Simple Projects</h2> */}
                     <ul className="mt-3 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
@@ -37,9 +42,10 @@ export default function Project() {
                                 </div>
                             </Link>
                         </li>
-                                        </ul>
+                    </ul>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

@@ -1,7 +1,10 @@
+import Footer from "../components/Footer"
 export default function About() {
+    document.title = "About | Evan Azhar Hartana"
+
     return (
         <>
-            <div className="w-full px-5 py-5 text-light-color">
+            <div className="w-full animate-fadeUp px-5 py-5 text-light-color">
                 <h1 className="text-3xl font-bold">About</h1>
                 <p className="mt-1">Who am i?</p>
                 <div className="mt-3 border-b border-secondary-dark pb-6">
@@ -14,6 +17,7 @@ export default function About() {
                     <p></p>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

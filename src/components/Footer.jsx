@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function Footer() {
     return (
-        <footer className="flex w-full flex-col items-center justify-between px-5 text-light-color">
+        <footer className="flex w-full animate-fadeUp flex-col items-center justify-between px-5 text-light-color">
             <div className="flex w-full flex-row justify-between border-b border-dashed border-secondary-dark pb-6">
                 <div>
                     <h2 className="mb-2 text-lg font-bold">Other Pages</h2>

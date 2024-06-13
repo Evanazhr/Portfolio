@@ -3,9 +3,9 @@ import { TypeAnimation } from "react-type-animation"
 
 export default function Hero() {
     return (
-        <div className="mb-6 border-b border-secondary-dark pb-6">
+        <div className="mb-6 animate-fadeUp border-b border-secondary-dark pb-6">
             <div className="flex flex-row items-center justify-start gap-4">
-                <div className="my-3 h-16 w-16 overflow-hidden rounded-full shadow-xl md:hidden">
+                <div className="my-3 h-16 w-16 animate-scaleUp overflow-hidden rounded-full shadow-xl md:hidden">
                     <img
                         src={HeroPhoto}
                         alt="photo"
@@ -30,9 +30,6 @@ export default function Hero() {
                 <ul>
                     <li>
                         <p>- Front End Developer (one day)</p>
-                    </li>
-                    <li>
-                        <p>- I like code from scratch!</p>
                     </li>
                 </ul>
                 <p className="pt-1">
