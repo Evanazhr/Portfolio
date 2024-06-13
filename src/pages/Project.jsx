@@ -12,7 +12,7 @@ export default function Project() {
                 <p className="my-1">
                     These project are simple but have improved my skills
                 </p>
-                <div className="py-6">
+                <div className="py-6 hidden">
                     {/* <h2 className="font-bold text-xl">Simple Projects</h2> */}
                     <ul className="mt-3 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
                         <li className="group h-auto w-auto rounded-lg bg-dark-background shadow-md shadow-light-color hover:shadow-sm hover:shadow-light-color">
