@@ -1,7 +1,7 @@
 import empty from "../assets/empty.jpg"
-import quotesThumbnail from "../assets/project-image/quotes.webp"
+import quotesThumbnail from "../assets/project-thumbnail/quotes.webp"
 import Footer from "../components/Footer"
-import toDoListThumbnail from "../assets/project-image/to-do-list.webp"
+import toDoListThumbnail from "../assets/project-thumbnail/to-do-list.webp"
 
 export default function Project() {
     document.title = "Projects | Evan Azhar Hartana"
