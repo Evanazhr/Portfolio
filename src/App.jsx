@@ -4,14 +4,12 @@ import RoutesIndex from "./routes/Routes.jsx"
 
 function App() {
     return (
-        <>
-            <main className="flex w-full flex-row bg-dark-background font-inter lg:m-auto lg:max-w-5xl">
+        <main className="scroll-smooth flex w-full flex-row bg-dark-background font-inter lg:m-auto lg:max-w-5xl">
                 <Navbar />
                 <div className="flex w-full flex-col">
                     <RoutesIndex />
                 </div>
-            </main>
-        </>
+        </main>
     )
 }
 
