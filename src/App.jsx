@@ -8,6 +8,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 function App() {
     return (
         <main className=" flex w-full flex-row bg-dark-background font-inter lg:m-auto lg:max-w-5xl">
+                <Analytics/>
+                <SpeedInsights/>
                 <Navbar />
                 <div className="flex w-full flex-col">
                     <RoutesIndex />
