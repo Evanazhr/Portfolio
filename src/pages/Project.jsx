@@ -1,7 +1,7 @@
 import empty from "../assets/empty.jpg"
 import quotesThumbnail from "../assets/project-image/quotes.webp"
 import Footer from "../components/Footer"
-import toDoListThumbnail from "../assets/project-image/to-do-list.png"
+import toDoListThumbnail from "../assets/project-image/to-do-list.webp"
 
 export default function Project() {
     document.title = "Projects | Evan Azhar Hartana"
@@ -16,7 +16,7 @@ export default function Project() {
                 <div className="py-6">
                     {/* <rh2 className="font-bold text-xl">Simple Projects</h2> */}
                     <ul className="mt-3 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
-                        <li className="group hidden h-auto w-auto rounded-lg bg-dark-background shadow-md shadow-light-color hover:shadow-sm hover:shadow-light-color">
+                        <li onClick={() => {alert("sorry, the pages under maintenance")}}className="group h-auto w-auto rounded-lg bg-dark-background shadow-md shadow-light-color hover:shadow-sm hover:shadow-light-color">
                             <a href="#">
                                 <div>
                                     <div className="relative">
@@ -27,12 +27,12 @@ export default function Project() {
                                         <img
                                             src={quotesThumbnail}
                                             alt="Quotes Generator"
-                                            className="h-auto w-auto rounded-t-lg group-hover:opacity-50"
+                                            className="h-full w-full rounded-t-lg bg-cover bg-center group-hover:opacity-50"
                                         />
                                     </div>
                                     <div className="flex flex-col items-start justify-center p-3">
                                         <h2 className="text-xl font-bold">
-                                            Simple Quotes Generator
+                                            Quotes Generator
                                         </h2>
                                         <p>
                                             a simple quotes generator from
@@ -45,14 +45,14 @@ export default function Project() {
                         <li className="group h-auto w-auto rounded-lg bg-dark-background shadow-md shadow-light-color hover:shadow-sm hover:shadow-light-color">
                             <a target="_blank" href="https://evanazhr.github.io/to-do-list-app/">
                                 <div>
-                                    <div className="relative">
+                                    <div className="relative overflow-hidden">
                                         <p className="absolute bottom-1 left-0 rounded-sm bg-secondary-dark bg-opacity-80 px-2 text-sm text-light-color">
                                             ReactJs, VanillaCSS
                                         </p>
                                         <img
                                             src={toDoListThumbnail}
                                             alt="To Do List App"
-                                            className="h-auto w-auto rounded-t-lg group-hover:opacity-50"
+                                            className="w-full h-fit rounded-t-lg bg-contain bg-center group-hover:opacity-50"
                                         />
                                     </div>
                                     <div className="flex flex-col items-start justify-center p-3">
