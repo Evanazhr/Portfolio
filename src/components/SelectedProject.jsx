@@ -123,11 +123,13 @@ export default function SelectedProject() {
             </div>
             <div className="flex items-center justify-center py-6">
                 <Link
-                    className="border-4 rounded-lg px-4 py-2 border-third-dark hover:border-orange-400 text-center hover:text-orange-400"
-                    to="/projects" onClick={() => {
+                    className="rounded-lg border-4 border-third-dark px-4 py-2 text-center hover:border-orange-400 hover:text-orange-400"
+                    to="/projects"
+                    onClick={() => {
                         window.scrollTo(0, 0)
                     }}
-                >More ...
+                >
+                    More ...
                 </Link>
             </div>
         </div>

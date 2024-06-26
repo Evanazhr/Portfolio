@@ -15,7 +15,7 @@ export default function Project() {
                 </p>
                 <div className="py-6">
                     <div>
-                        <ul className="mb-8 grid border-b pb-8 border-third-dark gap-8 sm:grid-cols-2">
+                        <ul className="mb-8 grid gap-8 border-b border-third-dark pb-8 sm:grid-cols-2">
                             <li
                                 onClick={() => {
                                     alert("sorry, the pages under maintenance")
@@ -40,9 +40,7 @@ export default function Project() {
                                     </div>
                                 </a>
                             </li>
-                            <li
-                                className="h-auto w-auto rounded-lg border-4 border-third-dark bg-secondary-dark p-6 transition-all duration-150 hover:scale-95"
-                            >
+                            <li className="h-auto w-auto rounded-lg border-4 border-third-dark bg-secondary-dark p-6 transition-all duration-150 hover:scale-95">
                                 <a href="#">
                                     <div>
                                         <div className="flex flex-col items-start justify-center">
@@ -111,69 +109,66 @@ export default function Project() {
                             </li>
                         </ul>
                     </div>
-                    <div className="mt-3 flex flex-col justify-center items-center md:items-start">
+                    <div className="mt-3 flex flex-col items-center justify-center md:items-start">
                         <h2 className="text-lg font-bold">Simple Project</h2>
                         <ul className="mt-3 grid gap-8 sm:grid-cols-2 md:grid-cols-2">
-                        <li
-                        onClick={() => {
-                            alert("sorry, the pages under maintenance")
-                        }}
-                        className=" h-auto w-auto rounded-lg transition-all duration-150 bg-secondary-dark p-6 hover:scale-95 border-4 border-third-dark"
-                    >
-                        <a href="#">
-                            <div>
-                                <div className="flex flex-col items-start justify-center">
-                                    <h2 className="mb-3 text-xl font-bold">
-                                    Quotes Generator
-
-                                    </h2>
-                                    <p className="mb-2">
-                                    a simple quotes generator from
+                            <li
+                                onClick={() => {
+                                    alert("sorry, the pages under maintenance")
+                                }}
+                                className="h-auto w-auto rounded-lg border-4 border-third-dark bg-secondary-dark p-6 transition-all duration-150 hover:scale-95"
+                            >
+                                <a href="#">
+                                    <div>
+                                        <div className="flex flex-col items-start justify-center">
+                                            <h2 className="mb-3 text-xl font-bold">
+                                                Quotes Generator
+                                            </h2>
+                                            <p className="mb-2">
+                                                a simple quotes generator from
                                                 Quotable.io API
-                                    </p>
-                                </div>
-                                <div className="relative">
-                                    <img
-                                     
-                                     src={quotesThumbnail}
-                                     alt="Quotes Generator"
-                                        className="h-full w-full rounded-md bg-cover bg-center "
-                                    />
-                                </div>
-                            </div>
-                        </a>
-                    </li>
+                                            </p>
+                                        </div>
+                                        <div className="relative">
+                                            <img
+                                                src={quotesThumbnail}
+                                                alt="Quotes Generator"
+                                                className="h-full w-full rounded-md bg-cover bg-center"
+                                            />
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
 
-                        <li
-                        onClick={() => {
-                            alert("sorry, the pages under maintenance")
-                        }}
-                        className=" h-fit w-auto rounded-lg transition-all duration-150 bg-secondary-dark p-6 hover:scale-95 border-4 border-third-dark"
-                    >
-                        <a  target="_blank"
+                            <li
+                                onClick={() => {
+                                    alert("sorry, the pages under maintenance")
+                                }}
+                                className="h-fit w-auto rounded-lg border-4 border-third-dark bg-secondary-dark p-6 transition-all duration-150 hover:scale-95"
+                            >
+                                <a
+                                    target="_blank"
                                     href="https://evanazhr.github.io/to-do-list-app/"
                                 >
-                            <div>
-                                <div className="flex flex-col items-start justify-center">
-                                    <h2 className="mb-3 text-xl font-bold">
-                                    To do list App
-
-                                    </h2>
-                                    <p className="mb-2">
-                                    a simple to do list app
-                                    </p>
-                                </div>
-                                <div className="relative">
-                                    <img
-                                     
-                                     src={toDoListThumbnail}
-                                     alt="To Do List App"
-                                       className="h-full w-full rounded-md bg-cover bg-center "
-                                    />
-                                </div>
-                            </div>
-                        </a>
-                    </li>
+                                    <div>
+                                        <div className="flex flex-col items-start justify-center">
+                                            <h2 className="mb-3 text-xl font-bold">
+                                                To do list App
+                                            </h2>
+                                            <p className="mb-2">
+                                                a simple to do list app
+                                            </p>
+                                        </div>
+                                        <div className="relative">
+                                            <img
+                                                src={toDoListThumbnail}
+                                                alt="To Do List App"
+                                                className="h-full w-full rounded-md bg-cover bg-center"
+                                            />
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
