@@ -3,32 +3,11 @@ import { Link } from "react-router-dom"
 export default function Footer() {
     return (
         <footer className="flex w-full animate-fadeUp flex-col items-center justify-between px-5 text-light-color">
-            <div className="flex w-full flex-row justify-between border-b border-dashed border-secondary-dark pb-6">
-                <div>
-                    <h2 className="mb-2 text-lg font-bold">Other Pages</h2>
-                    <ul className="flex flex-col gap-2">
-                        <li>
-                            <Link
-                                title="blogs"
-                                to="/soon"
-                                className="hover:text-orange-color"
-                            >
-                                Blogs
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="/soon"
-                                className="hover:text-orange-color"
-                            >
-                                Web Games
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-                <div>
+            <div className="flex w-full flex-row justify-center border-b border-dashed border-secondary-dark pb-6">
+                
+                <div className="flex flex-col justify-center items-center">
                     <h2 className="mb-2 text-lg font-bold">Find me on</h2>
-                    <ul className="flex flex-col gap-2">
+                    <ul className="flex  flex-row gap-4 ">
                         <li>
                             <a
                                 target="_blank"
@@ -66,15 +45,6 @@ export default function Footer() {
                                 Discord
                             </a>
                         </li>
-                    </ul>
-                </div>
-                <div>
-                    <h2 className="mb-2 text-lg font-bold">Thanks To</h2>
-                    <ul className="flex flex-col gap-2">
-                        <li>YouTube</li>
-                        <li>ChatGpt</li>
-                        <li>Google</li>
-                        <li>Stack Overflow</li>
                     </ul>
                 </div>
             </div>

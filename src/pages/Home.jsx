@@ -1,7 +1,6 @@
 import Hero from "../components/Hero"
 import SelectedProject from "../components/SelectedProject"
 import Skills from "../components/Skills"
-import Software from "../components/Software"
 import Footer from "../components/Footer"
 
 export default function Home() {
@@ -19,8 +18,7 @@ export default function Home() {
                 {/* Stacks or skills */}
                 <Skills />
 
-                {/* Software */}
-                <Software />
+            
             </div>
             <Footer />
         </>

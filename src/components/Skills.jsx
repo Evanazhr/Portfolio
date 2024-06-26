@@ -16,7 +16,7 @@ export default function Skills() {
                         clip-rule="evenodd"
                     ></path>
                 </svg>
-                <h1 className="text-lg font-bold">Skills </h1>
+                <h1 className="text-lg font-bold">Stacks </h1>
             </div>
             <ul className="my-6 flex flex-wrap gap-6">
                 <li className="animate-scaleUp">
