@@ -4,12 +4,13 @@ export default {
     theme: {
         extend: {
             colors: {
-                "dark-background": "#032030",
-                "secondary-dark": "#022B42",
+                "dark-background": "#0a0a0a",
+                "secondary-dark": "#1a1a1a",
+                "third-dark": "#1f1f1f",
                 "light-color": "#F0F3FA",
                 "orange-color": "#F97316",
-                "gradient-1": "#628ECB",
-                "gradient-2": "#395886",
+                "gradient-1": "#ffffff",
+                "gradient-2": "#d4d4d4",
             },
             animation: {
                 "pulse-1": "pulse 2s cubic-bezier(0.4, 0, 0.6 , 1) infinite",

@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom"
-import HeroPhoto from "../assets/hero-photo.jpg"
+import HeroPhoto from "../assets/evan-photo.jpg"
 
 export default function Navbar() {
     const namePath = document.location.pathname
     const NavLinkPathStyle =
-        "bg-gradient-to-r from-gradient-1 to-gradient-2  rounded-full md:rounded-lg w-full font-bold flex flex row justify-start p-3"
+        "bg-gradient-to-r from-gradient-1 to-gradient-2 text-dark-background rounded-full md:rounded-lg w-full font-bold flex flex row justify-start p-3"
     const pathStyle =
-        "p-3 w-full flex flex row bg-gradient-to-r hover:from-gradient-1 hover:to-gradient-2  rounded-full md:rounded-lg transition-all ease-in-out duration-150 justify-center lg:justify-start"
+        "p-3 w-full flex flex row bg-gradient-to-r hover:from-gradient-1 hover:text-dark-background hover:to-gradient-2  rounded-full md:rounded-lg transition-all ease-in-out duration-150 justify-center lg:justify-start"
 
     return (
         <header className="flex flex-row md:sticky md:top-0 md:flex-col md:items-center md:justify-start md:self-start md:px-5 md:py-5 lg:w-52 lg:items-start">
@@ -28,6 +28,9 @@ export default function Navbar() {
                     <li className="w-full">
                         <NavLink
                             to="/"
+                            onClick={() => {
+                                window.scrollTo(0, 0)
+                            }}
                             className={({ isActive }) =>
                                 isActive ? NavLinkPathStyle : pathStyle
                             }
@@ -57,6 +60,9 @@ export default function Navbar() {
                     <li className="w-full">
                         <NavLink
                             to="/about"
+                            onClick={() => {
+                                window.scrollTo(0, 0)
+                            }}
                             className={({ isActive }) =>
                                 isActive ? NavLinkPathStyle : pathStyle
                             }
@@ -85,6 +91,9 @@ export default function Navbar() {
                     <li className="w-full">
                         <NavLink
                             to="/projects"
+                            onClick={() => {
+                                window.scrollTo(0, 0)
+                            }}
                             className={({ isActive }) =>
                                 isActive ? NavLinkPathStyle : pathStyle
                             }
@@ -113,6 +122,9 @@ export default function Navbar() {
                     <li className="w-full">
                         <NavLink
                             to="/contacts"
+                            onClick={() => {
+                                window.scrollTo(0, 0)
+                            }}
                             className={({ isActive }) =>
                                 isActive ? NavLinkPathStyle : pathStyle
                             }
@@ -147,6 +159,9 @@ export default function Navbar() {
                     <li className="w-full">
                         <NavLink
                             to="/soon"
+                            onClick={() => {
+                                window.scrollTo(0, 0)
+                            }}
                             className={({ isActive }) =>
                                 isActive ? pathStyle : pathStyle
                             }
@@ -175,6 +190,9 @@ export default function Navbar() {
                     <li className="w-full">
                         <NavLink
                             to="/soon"
+                            onClick={() => {
+                                window.scrollTo(0, 0)
+                            }}
                             className={({ isActive }) =>
                                 isActive ? pathStyle : pathStyle
                             }

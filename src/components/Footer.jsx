@@ -9,6 +9,7 @@ export default function Footer() {
                     <ul className="flex flex-col gap-2">
                         <li>
                             <Link
+                                title="blogs"
                                 to="/soon"
                                 className="hover:text-orange-color"
                             >

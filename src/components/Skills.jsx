@@ -18,7 +18,7 @@ export default function Skills() {
                 </svg>
                 <h1 className="text-lg font-bold">Skills </h1>
             </div>
-            <ul className="flex my-6 flex-wrap gap-6">
+            <ul className="my-6 flex flex-wrap gap-6">
                 <li className="animate-scaleUp">
                     <div className="flex animate-pulse-1 flex-row items-center justify-center gap-2 rounded-lg px-3 py-2 font-bold shadow-md shadow-light-color">
                         <svg

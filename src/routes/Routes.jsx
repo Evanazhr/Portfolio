@@ -31,8 +31,6 @@ function RoutesIndex() {
 
             {/* route "/NoPage" */}
             <Route path="/*" element={<NoPage />} />
-
-          
         </Routes>
     )
 }
