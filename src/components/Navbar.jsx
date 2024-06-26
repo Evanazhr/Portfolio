@@ -57,7 +57,7 @@ export default function Navbar() {
                             </span>
                         </NavLink>
                     </li>
-                    <li className="w-full hidden">
+                    <li className="hidden w-full">
                         <NavLink
                             to="/about"
                             onClick={() => {
@@ -151,8 +151,7 @@ export default function Navbar() {
                         </NavLink>
                     </li>
                 </ul>
-
-                        </nav>
+            </nav>
         </header>
     )
 }

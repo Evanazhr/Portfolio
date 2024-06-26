@@ -17,8 +17,6 @@ export default function Home() {
 
                 {/* Stacks or skills */}
                 <Skills />
-
-            
             </div>
             <Footer />
         </>

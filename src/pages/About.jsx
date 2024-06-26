@@ -10,14 +10,17 @@ export default function About() {
                 <h1 className="text-3xl font-bold">About</h1>
                 <p className="mt-1">Who am i?</p>
                 <div className="mt-3 border-b border-secondary-dark pb-6">
-                    <p className="text-wrap mb-6">
+                    <p className="mb-6 text-wrap">
                         My name is Evan Azhar Hartana, you can call me Evan, i
                         am student of pamulang university, computer systems
-                        major. 
+                        major.
                     </p>
-                    <div className="w-auto h-[60vh] rounded-lg overflow-hidden">
-                    <img src={photo} alt="photo" className="bg-center bg-cover -translate-y-1/4 sm:-translate-y-1/2 "  />
-
+                    <div className="h-[60vh] w-auto overflow-hidden rounded-lg">
+                        <img
+                            src={photo}
+                            alt="photo"
+                            className="-translate-y-1/4 bg-cover bg-center sm:-translate-y-1/2"
+                        />
                     </div>
                 </div>
             </div>
