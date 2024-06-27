@@ -1,5 +1,5 @@
-import emptyPhoto from "../assets/empty.jpg"
 import { Link } from "react-router-dom"
+import ProjectCard from "./ProjectCard"
 
 export default function SelectedProject() {
     return (
@@ -23,101 +23,20 @@ export default function SelectedProject() {
             </div>
             <div className="my-6">
                 <ul className="mt-3 grid gap-8 sm:grid-cols-2">
-                    <li
-                        onClick={() => {
-                            alert("sorry, the pages under maintenance")
-                        }}
-                        className="h-fit w-auto rounded-lg border-4 border-third-dark bg-secondary-dark p-6 transition-all duration-150 hover:scale-95"
-                    >
-                        <a href="#">
-                            <div>
-                                <div className="flex flex-col items-start justify-center">
-                                    <h2 className="mb-3 text-xl font-bold">
-                                        Tittle
-                                    </h2>
-                                    <p className="mb-2">description</p>
-                                </div>
-                                <div className="relative">
-                                    <img
-                                        src={emptyPhoto}
-                                        alt="Quotes Generator"
-                                        className="h-full w-full rounded-md bg-cover bg-center"
-                                    />
-                                </div>
-                            </div>
-                        </a>
+                    <li>
+                        <ProjectCard />
                     </li>
-                    <li
-                        onClick={() => {
-                            alert("sorry, the pages under maintenance")
-                        }}
-                        className="h-fit w-auto rounded-lg border-4 border-third-dark bg-secondary-dark p-6 transition-all duration-150 hover:scale-95"
-                    >
-                        <a href="#">
-                            <div>
-                                <div className="flex flex-col items-start justify-center">
-                                    <h2 className="mb-3 text-xl font-bold">
-                                        Tittle
-                                    </h2>
-                                    <p className="mb-2">description</p>
-                                </div>
-                                <div className="relative">
-                                    <img
-                                        src={emptyPhoto}
-                                        alt="Quotes Generator"
-                                        className="h-full w-full rounded-md bg-cover bg-center"
-                                    />
-                                </div>
-                            </div>
-                        </a>
+
+                    <li>
+                        <ProjectCard />
                     </li>
-                    <li
-                        onClick={() => {
-                            alert("sorry, the pages under maintenance")
-                        }}
-                        className="h-fit w-auto rounded-lg border-4 border-third-dark bg-secondary-dark p-6 transition-all duration-150 hover:scale-95"
-                    >
-                        <a href="#">
-                            <div>
-                                <div className="flex flex-col items-start justify-center">
-                                    <h2 className="mb-3 text-xl font-bold">
-                                        Tittle
-                                    </h2>
-                                    <p className="mb-2">description</p>
-                                </div>
-                                <div className="relative">
-                                    <img
-                                        src={emptyPhoto}
-                                        alt="Quotes Generator"
-                                        className="h-full w-full rounded-md bg-cover bg-center"
-                                    />
-                                </div>
-                            </div>
-                        </a>
+
+                    <li>
+                        <ProjectCard />
                     </li>
-                    <li
-                        onClick={() => {
-                            alert("sorry, the pages under maintenance")
-                        }}
-                        className="h-fit w-auto rounded-lg border-4 border-third-dark bg-secondary-dark p-6 transition-all duration-150 hover:scale-95"
-                    >
-                        <a href="#">
-                            <div>
-                                <div className="flex flex-col items-start justify-center">
-                                    <h2 className="mb-3 text-xl font-bold">
-                                        Tittle
-                                    </h2>
-                                    <p className="mb-2">description</p>
-                                </div>
-                                <div className="relative">
-                                    <img
-                                        src={emptyPhoto}
-                                        alt="Quotes Generator"
-                                        className="h-full w-full rounded-md bg-cover bg-center"
-                                    />
-                                </div>
-                            </div>
-                        </a>
+
+                    <li>
+                        <ProjectCard />
                     </li>
                 </ul>
             </div>

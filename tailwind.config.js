@@ -19,8 +19,8 @@ export default {
                 "pulse-4": "pulse 5s cubic-bezier(0.4, 0, 0.6 , 1) infinite",
                 fadeUp: "fadeUp 0.5s ease-in-out",
                 scaleUp: "scaleUp 1s ease-in-out",
-                "infinite-slide-l": "infiniteSlideLeft 15s linear infinite",
-                "infinite-slide-r": "infiniteSlideRight 15s linear infinite",
+                "infinite-slide-l": "infiniteSlideLeft 20s linear infinite",
+                "infinite-slide-r": "infiniteSlideRight 20s linear infinite",
             },
             fontFamily: {
                 inter: ["Inter", "sans-serif"],
@@ -36,10 +36,10 @@ export default {
                 },
                 infiniteSlideRight: {
                     "0%": {
-                        transform: "translateX(0%)",
+                        transform: "translateX(calc(-200px * 6))",
                     },
                     "100%": {
-                        transform: "translateX(calc(200px * 6))",
+                        transform: "translateX(calc(0))",
                     },
                 },
                 fadeUp: {
