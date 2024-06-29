@@ -21,7 +21,7 @@ export default function Hero() {
                         3000,
                     ]}
                     wrapper="span"
-                    className="text-3xl font-bold text-light-color"
+                    className="text-2xl sm:text-3xl font-bold text-light-color"
                     speed={40}
                     repeat={Infinity}
                 />
@@ -29,12 +29,12 @@ export default function Hero() {
             <div className="flex flex-col items-center justify-center py-3 text-center md:items-start md:justify-start md:text-start">
                 <p className="pt-1">
                 My name is Evan Azhar Hartana, you can call me Evan, i
-                        am student of pamulang university, computer systems
-                        major.
-                    I am always eager to expand my skills and knowlege,
-                    embracing new challenges and technologies.
+                        am student of Pamulang University, Computer Systems
+                        major. I love to learn new things.
+                    I am always curious and motivated to expand my skills and knowledge.
                 </p>
             </div>
+            
         </div>
     )
 }
