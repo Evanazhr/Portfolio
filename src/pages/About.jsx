@@ -1,8 +1,12 @@
 import Footer from "../components/Footer"
 import photo from "../assets/evan-photo-2.jpg"
 
+
+import { useEffect } from "react"
 export default function About() {
-    document.title = "About | Evan Azhar Hartana"
+    useEffect(()=>{
+        document.title = "About | Evan Azhar Hartana"
+    },[])
 
     return (
         <>

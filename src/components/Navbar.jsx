@@ -23,7 +23,6 @@ export default function Navbar() {
                 </div>
             </div>
             <nav className="fixed bottom-4 left-1/2 z-50 my-3 -translate-x-1/2 rounded-full px-4 py-2 text-light-color shadow-md shadow-light-color backdrop-blur-sm md:static md:left-0 md:-translate-x-0 md:rounded-none md:px-0 md:py-0 md:shadow-none md:backdrop-blur-none lg:w-full">
-                <h2 className="hidden font-bold lg:my-3 lg:block">General</h2>
                 <ul className="flex flex-row items-start justify-start gap-6 md:flex-col md:gap-4 md:pb-3 lg:mt-3 lg:border-b lg:border-secondary-dark">
                     <li className="w-full">
                         <NavLink

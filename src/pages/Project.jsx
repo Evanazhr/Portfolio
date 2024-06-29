@@ -32,7 +32,7 @@ export default function Project() {
                             </li>
                         </ul>
                     </div>
-                    <div className="mt-3 flex flex-col items-center justify-center md:items-start">
+                    <div className="mt-3 hidden flex-col items-center justify-center md:items-start">
                         <h2 className="text-lg font-bold">Simple Project</h2>
                         <ul className="mt-3 grid gap-8 sm:grid-cols-2 md:grid-cols-2">
                             <li>

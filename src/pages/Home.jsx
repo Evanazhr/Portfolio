@@ -3,8 +3,12 @@ import SelectedProject from "../components/SelectedProject"
 import Skills from "../components/Skills"
 import Footer from "../components/Footer"
 
+import { useEffect } from "react" 
+
 export default function Home() {
-    document.title = "Home | Evan Azhar Hartana"
+    useEffect(()=>{
+        document.title = "Home | Evan Azhar Hartana"
+    },[])
 
     return (
         <>
@@ -12,11 +16,9 @@ export default function Home() {
                 {/* Hero Section */}
                 <Hero />
 
-                {/* Career and SelectedProject  */}
-                <SelectedProject />
-
+                
                 {/* Stacks or skills */}
-                <div className="mb-6 w-full animate-fadeUp overflow-hidden border-b border-secondary-dark pb-6">
+                <div className="w-full animate-fadeUp border-b border-secondary-dark mb-6 pb-6">
                     <div className="mb-6 flex flex-row items-center gap-2">
                         <svg
                             width="24"
@@ -34,13 +36,21 @@ export default function Home() {
                         </svg>
                         <h1 className="text-lg font-bold">Stacks </h1>
                     </div>
-                    <div className="hover:pause mb-3 animate-infinite-slide-l">
-                        <Skills />
-                    </div>
-                    <div className="hover:pause mb-6 animate-infinite-slide-r">
-                        <Skills />
+                    <div className="w-full overflow-hidden">
+
+                        <div className=" relative h-12 hover:pause mb-3 animate-infinite-slide-l">
+                            <Skills />
+                        </div>
+                        <div className=" relative h-12 hover:pause mb-6 animate-infinite-slide-r">
+                            <Skills />
+                        </div>
                     </div>
                 </div>
+
+
+                {/* Career and SelectedProject  */}
+                <SelectedProject />
+
             </div>
             <Footer />
         </>

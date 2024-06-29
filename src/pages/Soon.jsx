@@ -1,5 +1,8 @@
+import { useEffect } from "react"
 export default function Soon() {
-    document.title = "Coming Soon | Evan Azhar Hartana"
+    useEffect(()=>{
+        document.title = "Coming Soon | Evan Azhar Hartana"
+    },[])
 
     return (
         <>

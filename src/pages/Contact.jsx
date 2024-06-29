@@ -1,7 +1,12 @@
 import Footer from "../components/Footer"
+import { useEffect } from "react"
 
 export default function Contact() {
-    document.title = "Contacts | Evan Azhar Hartana"
+    useEffect(()=>{
+        document.title = "Contacts | Evan Azhar Hartana"
+    },[])
+
+
     return (
         <>
             <div className="w-full animate-fadeUp px-5 py-5 text-light-color md:py-5">

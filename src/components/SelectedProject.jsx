@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard"
 
 export default function SelectedProject() {
     return (
-        <div className="mb-6 animate-fadeUp border-b border-third-dark">
+        <div className="mb-6 w-full animate-fadeUp border-b border-third-dark">
             <div className="flex flex-row items-center justify-start gap-2">
                 <svg
                     width="22"
@@ -42,7 +42,7 @@ export default function SelectedProject() {
             </div>
             <div className="flex items-center justify-center py-6">
                 <Link
-                    className="rounded-lg border-4 border-third-dark px-4 py-2 text-center hover:border-orange-400 hover:text-orange-400"
+                    className="rounded-lg border-4 border-third-dark px-4 py-2 text-center hover:border-orange-500 hover:text-orange-500"
                     to="/projects"
                     onClick={() => {
                         window.scrollTo(0, 0)
