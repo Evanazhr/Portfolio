@@ -5,6 +5,18 @@ export default function Hero() {
     return (
         <div className="mb-6 animate-fadeUp border-b border-secondary-dark pb-6">
             <div className="mb-6 flex flex-col items-center justify-start gap-4 md:flex-row">
+                    <TypeAnimation
+                        sequence={[
+                            "Hello, i am Evan!",
+                            3000,
+                            "Welcome to my website 👋",
+                            3000,
+                        ]}
+                        wrapper="span"
+                        className="text-2xl font-bold text-light-color sm:text-3xl"
+                        speed={40}
+                        repeat={Infinity}
+                    />
                 <div className="my-3 h-24 w-24 animate-scaleUp overflow-hidden rounded-full shadow-xl md:hidden">
                     <img
                         src={HeroPhoto}
@@ -13,28 +25,17 @@ export default function Hero() {
                     />
                 </div>
 
-                <TypeAnimation
-                    sequence={[
-                        "Hello friend, i am Evan!",
-                        3000,
-                        "Welcome to my website 👋",
-                        3000,
-                    ]}
-                    wrapper="span"
-                    className="text-2xl font-bold text-light-color sm:text-3xl"
-                    speed={40}
-                    repeat={Infinity}
-                />
             </div>
             <div className="flex flex-col items-center justify-center py-3 text-center md:items-start md:justify-start md:text-start">
+                <h2 className="text-2xl font-bold mb-1">Evan Azhar</h2>
+                <p className="font-bold line-through mb-3">Web Developer</p>
                 <p className="pt-1">
-                    My name is Evan Azhar Hartana, you can call me Evan, i am
-                    student of Pamulang University, Computer Systems major. I
+                    I
                     love to learn new things. I am always curious and motivated
                     to expand my skills and knowledge.
                 </p>
             </div>
-            <div className="my-6 flex w-full flex-row items-center justify-center gap-6">
+            <div className="my-6 sm:justify-start  flex w-full flex-row items-center justify-center gap-6">
                 <a
                     title="email"
                     href="mailto:evanazhr@gmail.com"
