@@ -1,7 +1,7 @@
 export default function Skills() {
     return (
-        <div className="flex w-full absolute">
-            <ul className="box-border w-[1200px] flex ">
+        <div className="absolute flex w-full">
+            <ul className="box-border flex w-[1200px]">
                 <li className="animate-scaleUp">
                     <div className="flex w-[200px] scale-90 animate-pulse-1 flex-row items-center justify-center gap-2 rounded-lg p-3 px-3 py-2 font-bold shadow-md shadow-light-color">
                         <svg
@@ -120,7 +120,7 @@ export default function Skills() {
                     </div>
                 </li>
             </ul>
-            <ul className="box-border w-[1200px flex ">
+            <ul className="w-[1200px box-border flex">
                 <li className="animate-scaleUp">
                     <div className="flex w-[200px] scale-90 animate-pulse-1 flex-row items-center justify-center gap-2 rounded-lg p-3 px-3 py-2 font-bold shadow-md shadow-light-color">
                         <svg

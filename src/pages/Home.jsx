@@ -3,12 +3,12 @@ import SelectedProject from "../components/SelectedProject"
 import Skills from "../components/Skills"
 import Footer from "../components/Footer"
 
-import { useEffect } from "react" 
+import { useEffect } from "react"
 
 export default function Home() {
-    useEffect(()=>{
+    useEffect(() => {
         document.title = "Home | Evan Azhar Hartana"
-    },[])
+    }, [])
 
     return (
         <>
@@ -16,9 +16,8 @@ export default function Home() {
                 {/* Hero Section */}
                 <Hero />
 
-                
                 {/* Stacks or skills */}
-                <div className="w-full animate-fadeUp border-b border-secondary-dark mb-6 pb-6">
+                <div className="mb-6 w-full animate-fadeUp border-b border-secondary-dark pb-6">
                     <div className="mb-6 flex flex-row items-center gap-2">
                         <svg
                             width="24"
@@ -37,20 +36,17 @@ export default function Home() {
                         <h1 className="text-lg font-bold">Stacks </h1>
                     </div>
                     <div className="w-full overflow-hidden">
-
-                        <div className=" relative h-12 hover:pause mb-3 animate-infinite-slide-l">
+                        <div className="hover:pause relative mb-3 h-12 animate-infinite-slide-l">
                             <Skills />
                         </div>
-                        <div className=" relative h-12 hover:pause mb-6 animate-infinite-slide-r">
+                        <div className="hover:pause relative mb-6 h-12 animate-infinite-slide-r">
                             <Skills />
                         </div>
                     </div>
                 </div>
 
-
                 {/* Career and SelectedProject  */}
                 <SelectedProject />
-
             </div>
             <Footer />
         </>

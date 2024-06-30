@@ -2,10 +2,9 @@ import Footer from "../components/Footer"
 import { useEffect } from "react"
 
 export default function Contact() {
-    useEffect(()=>{
+    useEffect(() => {
         document.title = "Contacts | Evan Azhar Hartana"
-    },[])
-
+    }, [])
 
     return (
         <>
