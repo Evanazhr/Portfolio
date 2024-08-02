@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
-import ProjectCard from "./ProjectCard"
-
+import ProjectCard from "../Elements/ProjectCard"
 export default function SelectedProject() {
     return (
         <div className="mb-6 w-full animate-fadeUp border-b border-third-dark">
@@ -22,7 +21,7 @@ export default function SelectedProject() {
                 <h1 className="text-lg font-bold">Selected Project</h1>
             </div>
             <div className="my-6">
-                <ul className="mt-3 grid gap-8 sm:grid-cols-2">
+                <ul className="mt-3 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
                     <li>
                         <ProjectCard />
                     </li>
@@ -39,17 +38,6 @@ export default function SelectedProject() {
                         <ProjectCard />
                     </li>
                 </ul>
-            </div>
-            <div className="flex items-center justify-center py-6">
-                <Link
-                    className="rounded-lg border-4 border-third-dark px-4 py-2 text-center hover:border-orange-500 hover:text-orange-500"
-                    to="/projects"
-                    onClick={() => {
-                        window.scrollTo(0, 0)
-                    }}
-                >
-                    More ...
-                </Link>
             </div>
         </div>
     )

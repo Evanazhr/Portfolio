@@ -31,15 +31,15 @@ export default {
                         transform: "translateX(0%)",
                     },
                     "100%": {
-                        transform: "translateX(calc(-200px * 6))",
+                        transform: "translateX(-100%)",
                     },
                 },
                 infiniteSlideRight: {
                     "0%": {
-                        transform: "translateX(calc(-200px * 6))",
+                        transform: "translateX(0)",
                     },
                     "100%": {
-                        transform: "translateX(calc(0))",
+                        transform: "translateX(100%)",
                     },
                 },
                 fadeUp: {
